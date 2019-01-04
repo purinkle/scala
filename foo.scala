@@ -77,7 +77,3 @@ final case class CustomColour(
   red: Double,
   green: Double,
   blue: Double) extends Colour;
-
-object divide {
-  def apply(dividend: Int, divisor: Int): DivisionResult
-}
